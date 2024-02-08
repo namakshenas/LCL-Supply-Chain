@@ -1,0 +1,30 @@
+[
+  {
+    "label": "Lead time",
+    "icon": "mdi:transportation",
+    "icon_color": "blue",
+    "text": "Select a service level",
+    "value": "service_level"
+  },
+  {
+    "label": "Transportation cost",
+    "icon": "ic:outline-euro",
+    "icon_color": "blue",
+    "text": "Select transport cost for modes",
+    "value": "transport_cost"
+  },
+  {
+    "label": "Transportation capacity",
+    "icon": "grommet-icons:capacity",
+    "icon_color": "blue",
+    "text": "Select transport capacity for modes",
+    "value": "transport_capacity"
+  },
+  {
+    "label": "Historical data",
+    "icon": "icon-park-solid:data",
+    "icon_color": "blue",
+    "text": "Select data period for planning",
+    "value": "hist_data"
+  }
+]

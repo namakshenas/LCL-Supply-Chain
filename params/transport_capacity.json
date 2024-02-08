@@ -1,0 +1,46 @@
+[
+  {
+    "label": "Airplane (unit)",
+    "id": "airport_capacity",
+    "min": 1000,
+    "max": 2000,
+    "step": 100,
+    "value": 1700,
+    "label_on": 1,
+    "margin_bottom": 40,
+    "mark": []
+  },
+  {
+    "label": "Inland port (unit)",
+    "id": "inland_port_capacity",
+    "min": 5000,
+    "max": 10000,
+    "step": 100,
+    "value": 7500,
+    "label_on": 1,
+    "margin_bottom": 40,
+    "mark": []
+  },
+  {
+    "label": "Truck (unit)",
+    "id": "truck_capacity",
+    "min": 200,
+    "max": 600,
+    "step": 50,
+    "value": 350,
+    "label_on": 1,
+    "margin_bottom": 40,
+    "mark": []
+  },
+  {
+    "label": "Train (unit)",
+    "id": "train_capacity",
+    "min": 1000,
+    "max": 2500,
+    "step": 100,
+    "value": 1900,
+    "label_on": 1,
+    "margin_bottom": 40,
+    "mark": []
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "label": "Primary Transport",
+    "id": "prim_transport",
+    "min": 4,
+    "max": 20,
+    "step": 1,
+    "value": 8,
+    "label_on": 1,
+    "margin_bottom": 40,
+    "mark": [
+      {
+        "value": 6,
+        "label": "6h"
+      },
+      {
+        "value": 12,
+        "label": "12h"
+      },
+      {
+        "value": 18,
+        "label": "18h"
+      }
+    ]
+  },
+  {
+    "label": "Secondary Transport",
+    "id": "sec_transport",
+    "min": 4,
+    "max": 20,
+    "step": 1,
+    "value": 8,
+    "label_on": 1,
+    "margin_bottom": 40,
+    "mark": [
+      {
+        "value": 6,
+        "label": "6h"
+      },
+      {
+        "value": 12,
+        "label": "12h"
+      },
+      {
+        "value": 18,
+        "label": "18h"
+      }
+    ]
+  }
+]

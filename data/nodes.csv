@@ -1,0 +1,29 @@
+﻿node;country;type;param_name;param_value;latitude;longitude
+Brussels South Airport (Charleroi);Belgium;airport;monthly capacity;12000;50,459167;4,453611
+Findel International Airport;Luxembourg;airport;monthly capacity;11000;49,626389;6,211389
+Liege Port;Belgium;port;monthly capacity;6500;50,648418;5,576854
+Rheinhafen Koblenz;Germany;mf;monthly capacity;9000;50,392253;7,580967
+Ludwigshafen am Rhein;Germany;mf;monthly capacity;17000;49,523302;8,424805
+Hafen Trier;Germany;mf;monthly capacity;10000;49,799558;6,712016
+Saarlouis and Dillingen;Germany;mf;monthly capacity;6000;49,317365;6,757222
+Nouveau Port de Metz;France;port;monthly capacity;11000;49,151611;6,204709
+Liege DC;Belgium;dc;monthly capacity;18000;50,58268;5,549233
+Charleroi DC;Belgium;dc;monthly capacity;11000;50,448638;4,496041
+Athus DC;Belgium;dc;monthly capacity;4750;49,567786;5,836467
+Triport Ludwigshafn DC;Germany;dc;monthly capacity;6000;49,458425;8,444109
+Saarbrucken DC;Germany;dc;monthly capacity;5500;49,242255;7,023701
+Trier DC;Germany;dc;monthly capacity;9750;49,797574;6,736467
+Koblenz DC;Germany;dc;monthly capacity;8500;50,448638;7,617318
+Bettembourg DC;Luxembourg;dc;monthly capacity;5500;49,491191;6,123701
+Arlon;Belgium;dz;monthly demand;1639;49,683333;5,816667
+Namur;Belgium;dz;monthly demand;1770;50,466667;4,866667
+Charleroi;Belgium;dz;monthly demand;11322;50,4;4,433333
+Mainz;Germany;dz;monthly demand;19047;50;8,26667
+Saarbrücken;Germany;dz;monthly demand;6413;49,233333;7
+Trier;Germany;dz;monthly demand;4637;49,75;6,633333
+Koblenz;Germany;dz;monthly demand;7951;50,359722;7,597778
+Thionville;France;dz;monthly demand;1888;49,3589;6,1692
+Metz;France;dz;monthly demand;8085;49,120278;6,177778
+Nancy;France;dz;monthly demand;5674;48,6936;6,1846
+Luxembourg;Luxembourg;dz;monthly demand;7826;49,6106;6,1328
+Esch sur Alzette;Luxembourg;dz;monthly demand;952;49,4969;5,9806
