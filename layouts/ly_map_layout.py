@@ -1,6 +1,7 @@
 import dash_leaflet as dl
 from controls.cl_map_marker import create_map_marker
 from dash import html
+from dash_extensions.javascript import arrow_function
 
 
 def create_map_layout():

@@ -6,12 +6,6 @@ from dash_iconify import DashIconify as dicon
 # category_list : .json
 def create_accordion(category_list):
     return dmc.Accordion(
-        style={'background': '#FFFFFF', 'border-radius': '10px',
-               'box-shadow': 'rgba(0,0,255, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px'},
-        chevronPosition="right",
-        variant="contained",
-        radius="md",
-        mb=10,
         children=[
             dmc.AccordionItem(
                 value=category['item']['value'],
@@ -55,4 +49,9 @@ def create_accordion(category_list):
             )
             for category in category_list
         ],
+        className="accordion-box",
+        chevronPosition="right",
+        variant="contained",
+        radius="md",
+        mb=10,
     )
