@@ -11,6 +11,12 @@ def create_control_layout():
             children=[
                 create_control_accordion(),
                 create_btn_run(),
+                dmc.Button("Display result",
+                           id="btn-drawer-control",
+                           variant="outline",
+                           fullWidth=True,
+                           className="btn_run",
+                           ),
             ],
 
         ),

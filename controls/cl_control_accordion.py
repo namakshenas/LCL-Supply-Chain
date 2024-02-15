@@ -38,7 +38,7 @@ def create_control_accordion():
                 os.path.dirname('./params/'),
                 'transport_capacity.json')
             ),
-                json_category[1]["value"]),
+                json_category[2]["value"]),
         },
         {
             "item": json_category[3],
@@ -46,7 +46,7 @@ def create_control_accordion():
                 os.path.dirname('./params/'),
                 'hist_data.json')
             ),
-                json_category[2]["value"]),
+                json_category[3]["value"]),
         },
         # {
         #     "item": json_category[3],

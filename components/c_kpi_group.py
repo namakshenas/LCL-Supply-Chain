@@ -12,11 +12,13 @@ def create_kpi_group():
             os.path.dirname('./params/'),
             'kpi.json')
     )
-    return [
-        html.Th(
-            create_kpi(item),
-            style={'border-right': "1px solid #F5F5F5",
-                   'width': str(84 / len(item_list)) + "%"},
-        )
-        for item in item_list
-    ]
+    return dmc.SimpleGrid(
+        cols=3,
+        spacing="lg",
+        children=[
+            html.Div(
+                create_kpi(item),
+            )
+            for item in item_list
+        ],
+    )

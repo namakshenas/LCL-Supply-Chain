@@ -2,9 +2,9 @@ from layouts.ly_control_layout import create_control_layout
 from layouts.ly_header_layout import create_header_layout
 from layouts.ly_map_layout import create_map_layout
 from components.c_display_notification_progress import create_notification_progress
+from layouts.ly_drawer_layout import create_drawer_layout
 import dash_mantine_components as dmc
-from dash import Dash
-from dash.exceptions import PreventUpdate
+from dash import Dash, html, callback, Output, Input
 
 app = Dash(
     __name__,
@@ -32,6 +32,7 @@ app.layout = dmc.MantineProvider(
                     create_header_layout(),
                     create_map_layout(),
                     create_control_layout(),
+                    create_drawer_layout(),
                 ],
             ),
             id="loading-layout"
@@ -48,10 +49,12 @@ app.layout = dmc.MantineProvider(
 )
 
 if __name__ == "__main__":
-    from callbacks import clb_display_notif_progress, clb_display_loading, clb_update_arcs
+    from callbacks import clb_display_notif_progress, clb_display_loading, clb_update_arcs, clb_display_drawer
 
     clb_display_notif_progress.serve_clb_display_notif_stage_a(app)
     clb_display_notif_progress.serve_clb_display_notif_stage_b(app)
     clb_display_loading.serve_clb_display_loading(app)
     clb_update_arcs.serve_clb_update_arcs(app)
+    clb_display_drawer.serve_clb_display_drawer(app)
+
     app.run_server(debug=True)

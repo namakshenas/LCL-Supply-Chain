@@ -1,22 +1,22 @@
 [
   {
-    "label": "Avg. solar capture price",
-    "value": 57.94,
-    "id": "avg_capture_price",
-    "unit": "euro",
+    "label": "Demand fulfillment",
+    "value": 81,
+    "id": "avg_demand_fulfill",
+    "unit": "%",
     "color": "indigo"
   },
   {
-    "label": "Avg. Production",
-    "value": 7468.51,
-    "id": "avg_production",
-    "unit": "GW/h",
+    "label": "Warehouse utilization",
+    "value": 69,
+    "id": "avg_warehouse_utilize",
+    "unit": "%",
     "color": "grape"
   },
   {
-    "label": "Avg. electricity price",
-    "value": 56.29,
-    "id": "avg_price",
+    "label": "Transport cost",
+    "value": 1.263,
+    "id": "avg_cost_transport",
     "unit": "euro",
     "color": "lime"
   }
