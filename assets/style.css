@@ -29,6 +29,13 @@ body > div#react-entry-point:nth-child(1) > div#_dash-global-error-container:nth
     z-index:10;
 }
 
+body > div#react-entry-point:nth-child(1) > div#loading-layout:nth-child(1) > div.mantine-Paper-root.mantine-gnkb3v > div:nth-child(2) > div.leaflet-container.leaflet-touch.leaflet-fade-anim.leaflet-grab.leaflet-touch-drag.leaflet-touch-zoom > div.leaflet-control-container:nth-child(2) > div.leaflet-top.leaflet-left:nth-child(1) > div.leaflet-control-zoom.leaflet-bar.leaflet-control {
+    position: fixed;
+    bottom:100px;
+    left:50px;
+    z-index:10;
+}
+
 
 
 html *
@@ -154,6 +161,13 @@ body > div#react-entry-point:nth-child(1) > div#_dash-global-error-container > d
     z-index: 1;
     position:relative;
 }
+
+
+body > div#react-entry-point:nth-child(1) > div#loading-layout:nth-child(1) > div.mantine-Paper-root.mantine-gnkb3v > div:nth-child(2) {
+z-index: 1;
+    position:relative;
+}
+
 
 /*
 body > div#react-entry-point:nth-child(1) > div#_dash-global-error-container > div > div:nth-child(3) > div:nth-child(1) > div#_dash-app-content > div#loading-layout > div.mantine-Paper-root.mantine-gnkb3v > div:nth-child(2) > div.leaflet-container.leaflet-touch.leaflet-fade-anim.leaflet-grab.leaflet-touch-drag.leaflet-touch-zoom {
