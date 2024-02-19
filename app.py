@@ -57,4 +57,4 @@ if __name__ == "__main__":
     clb_update_arcs.serve_clb_update_arcs(app)
     clb_display_drawer.serve_clb_display_drawer(app)
 
-    app.run_server()
+    app.run_server(debug=True)
