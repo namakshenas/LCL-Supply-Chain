@@ -50,7 +50,7 @@ app.layout = dmc.MantineProvider(
 
 if __name__ == "__main__":
     from callbacks import clb_display_notif_progress, clb_display_loading, clb_update_arcs, clb_display_drawer, \
-        clb_display_layout_a_row_a, clb_display_layout_a_row_b
+        clb_display_layout_a_row_a, clb_display_layout_a_row_b, clb_display_layout_a_row_c
 
     clb_display_notif_progress.serve_clb_display_notif_stage_a(app)
     clb_display_notif_progress.serve_clb_display_notif_stage_b(app)
@@ -59,5 +59,6 @@ if __name__ == "__main__":
     clb_display_drawer.serve_clb_display_drawer(app)
     clb_display_layout_a_row_a.serve_clb_display_layout_a_row_a(app)
     clb_display_layout_a_row_b.serve_clb_display_layout_a_row_b(app)
+    clb_display_layout_a_row_c.serve_clb_display_layout_a_row_c(app)
 
     app.run_server(debug=True)

@@ -2,21 +2,22 @@ import plotly.express as px
 import pandas as pd
 import os
 
-
-def serve_fig_pie_chart():
+def serve_fig_bar_chart_2():
     df = pd.read_csv(os.path.join(
         os.path.dirname('./data/'),
-        'transport_mode.csv'), delimiter=';', decimal=",")
-    fig = px.pie(df, values="value", names="day", hole=.3)
+        'warehouse_util.csv'), delimiter=';', decimal=",")
+    fig = px.bar(df, x='node', y='param_value',
+                 # hover_data=['lifeExp', 'gdpPercap'], color='lifeExp',
+                 # labels={'pop': 'population of Canada'},
+                 height=400)
     # Update layout
     fig.update_layout(
         font=dict(
             family="Courier New, monospace",
-            size=18,
-            color="RebeccaPurple"
+            size=16,
         ),
         title=dict(
-            text="Share of transportation mode",
+            text="Warehouse utilization",
             font=dict(size=16),
             automargin=True,
             yref='container',

@@ -1,11 +1,15 @@
 import plotly.express as px
-
+import pandas as pd
+import os
 
 def serve_fig_bar_chart():
-    df = px.data.gapminder().query("country == 'Canada'")
-    fig = px.bar(df, x='year', y='pop',
-                 hover_data=['lifeExp', 'gdpPercap'], color='lifeExp',
-                 labels={'pop': 'population of Canada'}, height=400)
+    df = pd.read_csv(os.path.join(
+        os.path.dirname('./data/'),
+        'demand_full.csv'), delimiter=';', decimal=",")
+    fig = px.bar(df, x='node', y='param_value',
+                 # hover_data=['lifeExp', 'gdpPercap'], color='lifeExp',
+                 # labels={'pop': 'population of Canada'},
+                 height=400)
     # Update layout
     fig.update_layout(
         font=dict(
@@ -13,7 +17,7 @@ def serve_fig_bar_chart():
             size=16,
         ),
         title=dict(
-            text="Warehouse Utilization",
+            text="Demand Fulfillment",
             font=dict(size=16),
             automargin=True,
             yref='container',

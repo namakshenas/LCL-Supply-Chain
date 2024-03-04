@@ -6,10 +6,10 @@ import dash_mantine_components as dmc
 
 def create_graph_group():
     return [
-        html.Div(dcc.Graph(id="graph_a_a"),
+        html.Div(dcc.Graph(id="graph_a_a", config={'displayModeBar': False}, ),
                  className="drawer-fig-layout"),
-        html.Div(dcc.Graph(id="graph_a_b"),
+        html.Div(dcc.Graph(id="graph_a_b", config={'displayModeBar': False}, ),
                  className="drawer-fig-layout"),
-        html.Div(create_graph(),
-                 className="drawer-fig-layout")
+        html.Div(dcc.Graph(id="graph_a_c", config={'displayModeBar': False}, ),
+                 className="drawer-fig-layout"),
     ]
