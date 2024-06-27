@@ -61,4 +61,4 @@ if __name__ == "__main__":
     clb_display_layout_a_row_b.serve_clb_display_layout_a_row_b(app)
     clb_display_layout_a_row_c.serve_clb_display_layout_a_row_c(app)
 
-    app.run_server(debug=True)
+    app.run_server(debug=True,port=8030)
